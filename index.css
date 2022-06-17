@@ -1,0 +1,93 @@
+body{
+    margin: 20px;
+}
+
+#navigation {
+    background-color:rgb(19, 118, 255); 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left:0;
+   
+}
+
+#navigation li {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgb(171, 213, 255);
+}
+
+#navigation ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+#navigation a :hover {
+    background-color: rgb(255, 255, 166);
+}
+
+.doge_image {
+    height: 200px;
+    filter: drop-shadow(4px 4px 4px black); 
+}
+
+main figure {
+    display: block;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    font-family: Georgia;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+
+main header {
+  display: inline;
+  position: relative;
+  top: 100px;
+ margin: 10px;
+
+}
+
+#about{
+    margin-top: 20px;
+}
+
+
+#wheretobuy a{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    margin: 7px;
+    
+}
+#wheretobuy li {
+    margin-right: 20px;
+}
+
+.avatar {
+    background-image: url(../images/doge.png);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% ;
+    display: inline-block;
+    position: relative;
+    vertical-align: bottom;
+
+}
+
+footer h4{
+font-size: medium;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
