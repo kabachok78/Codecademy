@@ -76,7 +76,7 @@ main header {
 }
 
 .avatar {
-    background-image: url(../images/doge.png);
+    background-image: url(./doge.png);
     background-size: cover;
     height: 50px;
     width: 50px;
